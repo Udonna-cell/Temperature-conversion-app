@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Temperature conversion</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<form>
+		<h1>temperature conversion</h1>
+		
+		<section>
+		<div>
+			<label>degree</label>
+			<input type="number" name="degree" id="degree"/>
+		</div>
+		
+		<div>
+			<label>type</label>
+			<select id="type">
+				<option>Fahrenheit</option>
+				<option>Celsius</option>
+			</select>
+		</div>
+		</section>
+		
+		<div>
+			<label>result</label>
+			<h3 id="result"></h3>
+		</div>
+		
+		<input type="button" value="convert" onclick="calculate()"/>
+		
+	</form>
+	
+	<script src="script.js"></script>
+</body>
+</html>
