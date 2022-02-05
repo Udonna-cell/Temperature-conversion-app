@@ -1,6 +1,7 @@
 let types = document.getElementById('type');
 let degree = document.getElementById('degree');
 let result = document.getElementById('result');
+let show = "change"
 function  calculate() {
 let solve;
 	if (types.value == 'Fahrenheit') {
